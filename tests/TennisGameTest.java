@@ -73,13 +73,13 @@ public class TennisGameTest {
 		assertEquals("Player2 ahead", "15 - love", score1);		
 		game.player2Scored();
 		String score2 = game.getScore() ;
-		assertEquals("Player2 aheadt", "30 - love", score2);		
+		assertEquals("Player2 ahead", "30 - love", score2);		
 		game.player2Scored();
 		String score3 = game.getScore() ;
 		assertEquals("Player2 ahead", "40 - love", score3);		
 		game.player1Scored();
 		String score4 = game.getScore() ;
-		assertEquals("Player2 aheadt", "40 - 15", score4);	
+		assertEquals("Player2 ahead", "40 - 15", score4);	
 		game.player2Scored();
 		String score5 = game.getScore() ;
 		assertEquals("Player2 wins", "player2 wins", score5);	
